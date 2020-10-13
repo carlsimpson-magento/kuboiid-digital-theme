@@ -1,0 +1,24 @@
+//
+//  Common
+//  _____________________________________________
+
+@white : #ffffff;
+
+& when (@media-common = true) {
+
+  .logo {
+    background:darkslategrey;
+    padding:5px;
+    border-radius:5px;
+  }
+  .panel.wrapper {
+    background: darkslategrey;
+    color: @white;
+
+    ul.header.links {
+      a {
+        color: @white;
+      }
+    }
+  }
+}
